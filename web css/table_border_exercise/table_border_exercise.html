@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background-color: #eee;
+        font-family: sans-serif;
+        color: navy;
+        margin: 0px;
+    }
+
+    .gnaslov {
+        font-size: 26pt;
+        font-variant: small-caps;
+        text-align: right;
+        background-color: navy;
+        color: #ccf;
+        margin: 0px 10px 4px;
+        border-style: solid;
+        border-width: 8px 0px;
+        border-color: #88c;
+    }
+
+    .pasus {
+        width: 80%;
+        margin: 0px auto 16px auto;
+        text-align: justify;
+        border-style: solid;
+        border-width: 0px 0px 0px 10px;
+        border-color: lightblue;
+        padding-left: 10px;
+    }
+
+    aside {
+        width: 30%;
+        margin: 0px 5px 0px auto;
+        text-align: left;
+        padding: 16px;
+        font-size: 80%;
+        border-style: solid;
+        border-color: red;
+        border-width: 2px 4px 4px 2px;
+        background-color: lightyellow;
+        color: red;
+    }
+
+    h2 {
+        border-bottom: 5px dotted;
+        border-color: #88d;
+        width: 90%;
+        margin: 0px auto 10px;
+
+    }
+
+    table {
+        border: 4px solid black;
+        background-color: #fde;
+        margin: 16px auto;
+        padding: 0px;
+        border-collapse: collapse;
+        border-spacing: 0px;
+    }
+
+    td,
+    th {
+        padding: 9px 3px;
+    }
+
+    .table {
+        border-left: 1px solid #a88;
+
+    }
+
+    .row {
+        border-collapse: 2px solid black;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+    }
+
+    .firstrow {
+        color: lightyellow;
+        background-color: rgb(49, 48, 77);
+    }
+
+    div {
+        width: 450px;
+        border-style: double;
+        border-width: 15px;
+        border-color: darkgreen;
+        background-color: rgb(188, 211, 187);
+        color: darkgreen;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 16px auto;
+    }
+
+    ul {
+        width: 70%;
+        margin: 0px auto;
+        font-family: 'IBM Plex Serif', serif;
+        font-style: italic;
+
+    }
+
+    a:link {
+        color: red;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: red;
+    }
+</style>
+
+<body>
+
+
+</body>
+<h1 class="gnaslov">Glavni naslov</h1>
+<br>
+<p class="pasus">Cela strana treba da ima font sans-serif, boje navy i boju pozadine #eee. Isključite marginu stranice
+</p>
+<p class="pasus">Glavni naslov treba da bude veličine 26 pt, tipa small-caps sa tekstom poravnatim udesno. Boja pozadine
+    je navy, a boja teksta #ccf. Unutrašnje margine povertikali treba da budu 4px, a leva i desna po 10px. Gornju
+    marginu treba isključiti. Sa donje i gornje strane treba da postoji border debljine 8px, boje #88c.</p>
+<p class="pasus">Svi pasusi u tekstu trebe da budu širine 80%. Gornja margina ne postoji, a donja je jednaka veličini
+    fonta Pasus treba da bude centriran kao blok, a tekst u njemu poravnat po obe margine. Pasusi sa leve strane imaju
+    svetlo-plavu liniju debljine 10px, a tekst je odvojen od linije za isto toliko.</p>
+<aside class="aside">Komentar (aside) treba da bude širine 30%, s tim što je ceo poravnat po desnoj strani (dok je tekst
+    unutar komentara poravnat po levoj). Unutrašnja margina treba da bude veličine fonta, a sam tekst veličine 80%od
+    veličine fonta kakava je inače. Desna margina treba da bude 5px. Okvir treba da bude crvene boje, debljine 2px, ali
+    dole i desno4px. Boja pozadine treba da bude svetlo žuta, a boja teksta ista kao boja okvira.</aside>
+<p class="pasus">Podnaslov treba da ima samo donji okvir debljine 5px, tačkaste linije, boje #88d. Njegova širina terba
+    da bude 90%.</p>
+<h2>Podnaslov</h2>
+<p class="pasus">Napravite tabelu kao na slici. Tabela treba da bude postavljena na sredini, bez podešavanja širine.
+    Gornja i donja margine treba da budu jednake veličini fonta. Okvir oko cele tabele treba da bude crne boje, debljine
+    4px. boja pozadine za tabelu treba da bude #fde. Vertikalni okviri unutar tabele treba da budu 1px boje #a88,
+    horizontalni crne boje debljine 2px. Ćelije tabele treba da imaju vertikalne unutrašnje margine po 3px i
+    horizontalne od 9px.</p>
+<table>
+    <tr class="firstrow">
+        <th class="table" class="row">User</th>
+        <th class="table" class="row">Ime</th>
+        <th class="table" class="row">Prezime</th>
+    </tr>
+    <tr class="row">
+        <th class="row">jocca</th>
+        <td class="table" class="row">Jovan</td>
+        <td class="table" class="row">Canić</td>
+    </tr>
+    <tr class="row">
+        <th class="row">mitke</th>
+        <td class="table" class="row">Dejan</td>
+        <td class="table" class="row">Mitrović</td>
+    </tr>
+    <tr>
+        <th>aniche</th>
+        <td class="table">Ana</td>
+        <td class="table">Radić</td>
+    </tr>
+</table>
+<p class="pasus">Modifikujte tabelu tako da prvi red izgleda kao zaglavlje.</p>
+<div>
+    <p>DIV blok treba da bude na sredini, tekst centriran i podebljan. Gornja i donja margina su veličine fonta.
+        Ukupna širina bloka treba da bude 450px. Ovo treba da postignete znajući da je debljina okvira 15px, a
+        unutrašnja margina 10px. Za potrebe ovog zadatka nemojte koristiti atribut box-sizing.</p>
+</div>
+<p class="pasus">Konačno treba da napravite listu linkova. Na slici možete videti kako lista treba da izgleda. Cela
+    lista treba da bude širine 70% i na sredini. Gornja i donja margina su veličine fonta. Font stavki treba da bude
+    tipa serif i to
+    kurzivan. Link treba da bude podebljan, crvene boje bez podvlačenja. Ovde su date adrese linkova.</p>
+<p>
+<ul>
+    <li>HTML: <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank"><b>Osnovna HTML tabela</b></a>
+    </li>
+    <li>CSS: <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank"><b>CSS formatiranje tabela</b></a>
+    </li>
+    <li>CSS: <a href="https://www.w3schools.com/css/css_border.asp" target="_blank"><b>CSS okviri</b></a>
+    </li>
+</ul>
+
+</p>
+<p class="pasus"><b>Čestitamo, probili ste se do kraja zadatka!</b></p>
+
+</html>

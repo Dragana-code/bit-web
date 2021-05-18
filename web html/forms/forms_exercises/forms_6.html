@@ -1,0 +1,69 @@
+<html>
+<body>
+<form>
+    <!--for entering short text-->
+    <p>Username:
+        <input type="text" name="username" size="15" maxlength="11" placeholder="Username" />
+    </p>
+    <!--form for entering password-->
+    <p>Password:
+        <input type="password" name="password" size="15" maxlength="30" placeholder="Password" />
+    </p>
+    <br>
+    <!--textarea just for entering text-->
+    <p>What do you think?</p>
+    <textarea name="comments" cols="20" rows="5" placeholder="Your comment..."></textarea>
+    <br>
+    <!--radio buttons, only one can be selected -->
+    <p>Select something:</p>
+    <input type="radio" name="something" value="first" checked="checked" />First
+    <input type="radio" name="something" value="this" />Something
+    <input type="radio" name="something" value="that" />That
+    <br>
+    <!--chekboks, multiple selection-->
+    <p>Which do you like:</p>
+    <input type="checkbox" name="which" value="10" checked="checked" />10
+    <input type="checkbox" name="which" value="101" />101
+    <input type="checkbox" name="which" value="1001" />1001
+    <br><br>
+    <input type="reset" />
+    <!--dropdown list, single select-->
+    <p>Dropdown list:</p>
+    <select>
+        <option value="one">One</option>
+        <option value="two" selected>Two</option>
+        <option value="tree">Tree</option>
+    </select>
+    <!--multiple select box-->
+    <p>Multiple selection:</p>
+    <select name=select size="3" multiple="multiple">
+        <option value="1" selected>1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4" selected>4</option>
+    </select><br><br>
+    <!--file input box-->
+    <input type="file" name="photo"><br>
+    <input type="submit" value="Upload">
+    <!--submit button, triggers sending form to the web server-->
+    <p>submit button</p>
+    <input type="text" name="email" placeholder="email"/>
+    <input type="submit" name="subscribe" value="Subscribe" /><br><br>
+    <!--input button as image-->
+    <input type="text" name="email" placeholder="email" /><br>
+    <input type="image" src="https://www.nicepng.com/png/detail/1-13456_pink-subscribe-png-galaxy-subscribe-button-png.png" width="150" /><hr>
+    <!--reset button, returns form to default state-->
+    <input type="reset" value="Reset">
+    <!--button element, <input type="button"> elements have no default behavior (their cousins, <input type="submit"> and <input type="reset"> are used to submit and reset forms, respectively). To make buttons do anything, you have to write JavaScript code to do the work.-->
+    <button type="reset">Click me for reset</button>
+    <button>
+        <img src="https://w7.pngwing.com/pngs/203/109/png-transparent-brand-material-yellow-yellow-sliding-button-element-orange-button-vector-yellow-vector.png" alt="add" width="150">
+    </button>
+</form>
+
+
+
+</body>
+
+
+</html>
